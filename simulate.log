@@ -1,0 +1,249 @@
+Time resolution is 1 ps
+UVM_INFO C:/Xilinx/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_test...
+UVM_INFO C:/Xilinx/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 35000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 35000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 63000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 63000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 91000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 91000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 119000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 119000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 147000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 147000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 175000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 175000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 175000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x4f, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 175000: uvm_test_top.env.sco_env [SCO] FIFO_Element_1 :4f 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 195000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x98, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 195000: uvm_test_top.env.sco_env [SCO] FIFO_Element_2 :98 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 215000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xb2, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 215000: uvm_test_top.env.sco_env [SCO] FIFO_Element_3 :b2 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 235000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x2b, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 235000: uvm_test_top.env.sco_env [SCO] FIFO_Element_4 :2b 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 255000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x5c, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 255000: uvm_test_top.env.sco_env [SCO] FIFO_Element_5 :5c 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 275000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x15, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 275000: uvm_test_top.env.sco_env [SCO] FIFO_Element_6 :15 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 295000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x30, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 295000: uvm_test_top.env.sco_env [SCO] FIFO_Element_7 :30 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 315000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xc4, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 315000: uvm_test_top.env.sco_env [SCO] FIFO_Element_8 :c4 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 335000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x7f, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 335000: uvm_test_top.env.sco_env [SCO] FIFO_Element_9 :7f 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 371000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x4f, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 371000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:4f 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 399000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x98, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 399000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:98 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 427000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xb2, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 427000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:b2 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 455000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x2b, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 455000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:2b 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 483000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x5c, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 483000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:5c 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 511000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x15, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 511000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:15 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 539000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x30, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 539000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:30 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 567000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xc4, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 567000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:c4 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 595000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 595000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 623000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 623000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 625000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x33, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 625000: uvm_test_top.env.sco_env [SCO] FIFO_Element_1 :33 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 645000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x38, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 645000: uvm_test_top.env.sco_env [SCO] FIFO_Element_2 :38 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 665000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x76, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 665000: uvm_test_top.env.sco_env [SCO] FIFO_Element_3 :76 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 685000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x35, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 685000: uvm_test_top.env.sco_env [SCO] FIFO_Element_4 :35 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 705000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xcc, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 705000: uvm_test_top.env.sco_env [SCO] FIFO_Element_5 :cc 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 725000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x80, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 725000: uvm_test_top.env.sco_env [SCO] FIFO_Element_6 :80 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 745000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x93, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 745000: uvm_test_top.env.sco_env [SCO] FIFO_Element_7 :93 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 765000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x88, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 765000: uvm_test_top.env.sco_env [SCO] FIFO_Element_8 :88 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 785000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xa3, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 785000: uvm_test_top.env.sco_env [SCO] FIFO_Element_9 :a3 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 805000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x49, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 805000: uvm_test_top.env.sco_env [SCO] FIFO_Element_10 :49 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 825000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x9e, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 825000: uvm_test_top.env.sco_env [SCO] FIFO_Element_11 :9e 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 845000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x55, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 845000: uvm_test_top.env.sco_env [SCO] FIFO_Element_12 :55 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 865000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xce, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 865000: uvm_test_top.env.sco_env [SCO] FIFO_Element_13 :ce 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 885000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x1b, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 885000: uvm_test_top.env.sco_env [SCO] FIFO_Element_14 :1b 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 905000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x59, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 905000: uvm_test_top.env.sco_env [SCO] FIFO_Element_15 :59 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 925000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x9e, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 925000: uvm_test_top.env.sco_env [SCO] FIFO_Element_16 :9e 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 945000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x9d, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 945000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:9d Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 965000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x83, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 965000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:83 Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 985000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x4c, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 985000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:4c Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1005000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x62, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 1005000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:62 Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1025000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x7f, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 1025000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:7f Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1045000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xaf, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 1045000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:af Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1065000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x99, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 1065000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:99 Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1085000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x4c, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 1085000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:4c Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1105000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x99, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 1105000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:99 Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1125000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x77, full_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(61) @ 1125000: uvm_test_top.env.sco_env [SCO] FIFO_Full_Pass:77 Element Discarded 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1155000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x33, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1155000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:33 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1183000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x38, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1183000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:38 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1211000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x76, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1211000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:76 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1239000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x35, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1239000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:35 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1267000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xcc, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1267000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:cc 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1295000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x80, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1295000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:80 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1323000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x93, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1323000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:93 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1351000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x88, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1351000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:88 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1379000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xa3, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1379000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:a3 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1407000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x49, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1407000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:49 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1435000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x9e, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1435000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:9e 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1463000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x55, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1463000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:55 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1491000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xce, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1491000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:ce 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1519000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x1b, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1519000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:1b 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1547000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x59, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1547000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:59 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1575000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1575000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_2
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1603000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 1603000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1631000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 1631000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1635000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x94, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 1635000: uvm_test_top.env.sco_env [SCO] FIFO_Element_1 :94 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1655000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x39, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 1655000: uvm_test_top.env.sco_env [SCO] FIFO_Element_2 :39 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1687000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1687000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_3
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1715000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1715000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_4
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1743000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1743000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_5
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1771000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 1771000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1799000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 1799000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1827000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1827000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_6
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1855000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1855000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_7
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1883000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1883000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_8
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1911000: reporter@@Read_item_monitor [MONITOR] READ: rstn=0, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(46) @ 1911000: uvm_test_top.env.sco_env [SCO] FIFO is Reset/Dumped_9
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1939000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(100) @ 1939000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Empty_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1965000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x0, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 1965000: uvm_test_top.env.sco_env [SCO] FIFO_Element_1 :0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 1967000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 1967000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 1985000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x0, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 1985000: uvm_test_top.env.sco_env [SCO] FIFO_Element_1 :0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2005000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x0, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2005000: uvm_test_top.env.sco_env [SCO] FIFO_Element_2 :0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2025000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x0, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2025000: uvm_test_top.env.sco_env [SCO] FIFO_Element_3 :0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2045000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0x0, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2045000: uvm_test_top.env.sco_env [SCO] FIFO_Element_4 :0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2065000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xffff, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2065000: uvm_test_top.env.sco_env [SCO] FIFO_Element_5 :ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2085000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xffff, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2085000: uvm_test_top.env.sco_env [SCO] FIFO_Element_6 :ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2105000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xffff, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2105000: uvm_test_top.env.sco_env [SCO] FIFO_Element_7 :ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2125000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xffff, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2125000: uvm_test_top.env.sco_env [SCO] FIFO_Element_8 :ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(55) @ 2145000: reporter@@Write_item_monitor [MONITOR] WRITE: rstn=1, w_data=0xffff, full_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(73) @ 2145000: uvm_test_top.env.sco_env [SCO] FIFO_Element_9 :ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2177000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2177000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2205000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2205000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2233000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2233000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2261000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2261000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2289000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0x0, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(93) @ 2289000: uvm_test_top.env.sco_env [SCO] FIFO_Read_FAIL-Expected:ffff- DUT: 0 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2317000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xffff, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2317000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2345000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xffff, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2345000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2373000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xffff, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2373000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:ffff 
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_sequence_item.sv(59) @ 2401000: reporter@@Read_item_monitor [MONITOR] READ: rstn=1, r_data=0xffff, empty_flag=0
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(88) @ 2401000: uvm_test_top.env.sco_env [SCO] FIFO_Read_Pass:ffff 
+UVM_INFO C:/Xilinx/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 2415000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(114) @ 2415000: uvm_test_top.env.sco_env [SCO] RESET_Count:9
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(115) @ 2415000: uvm_test_top.env.sco_env [SCO] READ_Count:45
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(116) @ 2415000: uvm_test_top.env.sco_env [SCO] WRITE_Count:47
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(117) @ 2415000: uvm_test_top.env.sco_env [SCO] PASS_Count:100
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(118) @ 2415000: uvm_test_top.env.sco_env [SCO] FAIL_Count:1
+UVM_INFO ../../../../FIFO_UVM_Verification.srcs/sim_1/imports/FIFO_UVM_Ref/fifo_scoreboard.sv(119) @ 2415000: uvm_test_top.env.sco_env [SCO] TEST_Count:101
+UVM_INFO C:/Xilinx/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 2415000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  212
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[MONITOR]   101
+[RNTST]     1
+[SCO]   107
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 2415 ns : File "C:/Xilinx/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
