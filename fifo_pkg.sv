@@ -13,4 +13,5 @@ package fifo_pkg;
     `include "fifo_scoreboard.sv"
     `include "fifo_environment.sv"
     `include "fifo_test.sv"
+
 endpackage : fifo_pkg
